@@ -1,0 +1,33 @@
+.content2{
+  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.content2 h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.banner-link a{
+    text-decoration: none;
+}
+
+.bannerImg{
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .content2 h1{
+    font-size: 2rem;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .content2 h1{
+    font-size: 1rem;
+}
+}

@@ -43,6 +43,12 @@ navbar{
 	color: #fff;
 }
 
+.navbar-nav li a:hover,
+.navbar-nav li a:active{
+	color: #161616;
+}
+
+
 .search{
 	position: absolute;
 	top: 0;

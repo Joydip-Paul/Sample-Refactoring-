@@ -42,8 +42,8 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item"><a className="nav-link" href="Blog.html"> Design Gallery </a></li>
                             <li className="nav-item"><a className="nav-link" href="About.html"> How it works </a></li>
-                            <li className="nav-item"><a className="nav-link" href="Contact.html"> Contact </a></li>
-                            <li className="nav-item"><a className="nav-link" href="Contact.html"> Book Appointment </a></li>
+                            <li className="nav-item"><a className="nav-link" href="/contact"> Contact </a></li>
+                            <li className="nav-item"><a className="nav-link" href="/book-appointment"> Book Appointment </a></li>
                         </ul>
                     </div>
                 </div>

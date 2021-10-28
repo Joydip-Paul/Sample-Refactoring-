@@ -5,6 +5,8 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import Navbar from './Component/Shared/Navbar/Navbar';
 import Footer from './Component/Shared/Footer/Footer';
 import Home from './Component/Home/Home';
+import Contact from './Component/Contact/Contact';
+import BookAppointment from './Component/BookAppointment/BookAppointment';
 
 function App() {
   return (
@@ -12,7 +14,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/about">
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/book-appointment">
+            <BookAppointment />
           </Route>
           <Route path="*">
             <Home />
