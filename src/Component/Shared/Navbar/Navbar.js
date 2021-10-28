@@ -35,14 +35,15 @@ const Navbar = () => {
                                 <a className="nav-link" href="#" data-bs-toggle="dropdown">Pages <i
                                     className="fas fa-chevron-down down-arrow-dropdown"></i></a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#"> Client</a></li>
+                                    <li><a className="dropdown-item" href="#"> Our Story</a></li>
                                     <li><a className="dropdown-item" href="#"> FAQ's </a></li>
-                                    <li><a className="dropdown-item" href="#"> Testimonials </a></li>
+                                    <li><a className="dropdown-item" href="#"> Payment </a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item"><a className="nav-link" href="Blog.html"> Blog </a></li>
-                            <li className="nav-item"><a className="nav-link" href="About.html"> About </a></li>
+                            <li className="nav-item"><a className="nav-link" href="Blog.html"> Design Gallery </a></li>
+                            <li className="nav-item"><a className="nav-link" href="About.html"> How it works </a></li>
                             <li className="nav-item"><a className="nav-link" href="Contact.html"> Contact </a></li>
+                            <li className="nav-item"><a className="nav-link" href="Contact.html"> Book Appointment </a></li>
                         </ul>
                     </div>
                 </div>
