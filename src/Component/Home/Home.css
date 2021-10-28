@@ -81,7 +81,7 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: #ff9616;
+  background-color: #E88B38;
   width: 0;
   height:5px;
   transition: .5s ease-out;
@@ -97,3 +97,60 @@
 }
 
 /* Card */
+
+/* Design */
+.designCard{
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  transition: 1s;
+}
+
+.designCard:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  cursor: pointer;
+}
+.designCard img{
+  width: 100%;
+}
+/* Design */
+
+/* PricingCard */
+.PricingCard{
+  background-color: #eee;
+  text-align: center;
+  padding: 1rem;
+}
+
+.PricingCard img{
+  width: 100%;
+}
+
+.themeBtn{
+  margin-top: 1rem;
+  background-color: #c97022;
+  border: 2px solid #c97022;
+  outline: none;
+  padding: 10px 20px;
+  color: #fff;
+  transition: .7s;
+}
+
+.themeBtn:hover{
+  background: none;
+  color: #161616;
+}
+/* PricingCard */
+
+/* designNow */
+.designNow{
+
+}
+
+.designNow img{
+  width: 100%;
+}
+
+.designNow p{
+  text-align: justify;
+}
+/* designNow */

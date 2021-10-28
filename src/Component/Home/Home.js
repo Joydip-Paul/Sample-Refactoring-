@@ -1,7 +1,11 @@
 import React from 'react';
 import hero from '../../images/heroBanner.jpg';
+import TopFooter from '../Shared/Footer/TopFooter';
 import Card from './Card';
+import Design from './Design';
+import DesignNow from './DesignNow';
 import './Home.css';
+import Pricing from './Pricing';
 
 const Home = () => {
     return (
@@ -18,6 +22,10 @@ const Home = () => {
                 </div>
             </div>
             <Card />
+            <Design />
+            <Pricing />
+            <DesignNow />
+            <TopFooter />
         </section>
     );
 };
