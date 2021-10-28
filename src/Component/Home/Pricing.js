@@ -1,7 +1,7 @@
 import React from 'react';
-import Pricing1 from '../../images/pricing1.jpg';
-import Pricing2 from '../../images/pricing2.jpg';
-import Pricing3 from '../../images/pricing3.jpg';
+import Pricing1 from '../../images/pricing11.jpg';
+import Pricing2 from '../../images/pricing22.jpg';
+import Pricing3 from '../../images/pricing33.jpg';
 import './Home.css';
 
 const PricingCard = [

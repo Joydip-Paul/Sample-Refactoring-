@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../Shared/Banner/Banner';
 import './BookAppointment.css';
-import bannerImg from "../../images/homeHero.jpg";
+import bannerImg from "../../images/heroBanner.jpg";
 
 const BookAppointment = () => {
     return (

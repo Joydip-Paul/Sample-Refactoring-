@@ -1,7 +1,7 @@
 import React from 'react';
 import cardImg1 from '../../images/cardImg1.jpg';
-import cardImg2 from '../../images/cardImg2.jpg';
-import cardImg3 from '../../images/cardImg3.jpg';
+import cardImg2 from '../../images/cardImg22.jpg';
+import cardImg3 from '../../images/cardImg33.jpg';
 import './Home.css';
 
 const DesignCard = [

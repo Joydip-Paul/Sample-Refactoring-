@@ -7,7 +7,7 @@ import {
     faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import Banner from '../Shared/Banner/Banner';
-import bannerImg from "../../images/homeHero.jpg";
+import bannerImg from "../../images/heroBanner.jpg";
 
 const officeInfo = [
     {

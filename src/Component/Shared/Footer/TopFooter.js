@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const TopFooter = () => {
@@ -8,7 +9,9 @@ const TopFooter = () => {
                 <div className="subFooter">
                     <h3 className="my-auto">Ready to start designing?</h3>
                     <div className="my-auto">
-                        <button className="themeBtn">Book Appointment</button>
+                        <Link to="/book-appointment">
+                            <button className="themeBtn">Book Appointment</button>
+                        </Link>
                     </div>
                 </div>
             </div>
